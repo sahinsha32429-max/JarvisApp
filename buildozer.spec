@@ -501,4 +501,5 @@ package.domain = com.sahin
 android.permissions = android.permission.INTERNET, android.permission.RECORD_AUDIO
 
 android.api = 35
+android.sdk_path = /usr/local/lib/android/sdk
 android.minapi = 23
