@@ -30,10 +30,11 @@ jobs:
             libffi-dev libssl-dev autoconf automake \
             libtool pkg-config zlib1g-dev
 
-      - name: Install Android command-line tools
+            - name: Install Android command-line tools
         uses: android-actions/setup-android@v3
-        with:
-          cmdline-tools-version: 12266719
+        
+      
+          
 
       - name: Accept Android licenses
         run: yes | sdkmanager --licenses
